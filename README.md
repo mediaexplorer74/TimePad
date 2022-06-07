@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![TimePad application screenshot](Images/shot01.png "TimePad application screenshot")
+![TimePad application screenshot](Images/shot1.png "TimePad application screenshot")
 
 ## 2 words about tech
 
