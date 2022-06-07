@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimePad.MainPage">
+    <StackLayout Margin="20,35,20,20">
+        <Button Text="Get TimePad Data"
+                Clicked="OnButtonClicked" />
+
+        <ListView x:Name="collectionView">
+            
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout>
+                                <!--"{Binding Id}"-->
+                               <Label Text=" "
+                                FontSize="Small" />
+
+                                <Label Text="{Binding StartsAt}"
+                                TextColor="Green"
+                                FontSize="Large" />
+
+                                <Label Text="{Binding Name}"
+                                TextColor="DarkBlue"
+                                FontSize="Medium" />
+                               
+                               <Label Text="{Binding Url}"
+                                FontSize="Small" />
+
+                                <Label Text="{Binding LocationPlain}"
+                                TextColor="DarkOrange"
+                                FontSize="Small" />
+
+                                <Label Text="{Binding CategoriesPlain}"
+                                TextColor="DarkGray"
+                                FontSize="Small" />
+                            </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+           
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
