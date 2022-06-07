@@ -1,10 +1,30 @@
-# TimePad
+# Xamarin.Forms - TimePad proto
 
-## About
-TimePad API simple app
+## Abstract
+ This sample demonstrates how to consume REST-based web services from Xamarin.Forms applications (get started).
 
-## Dev Steps
+## Screenshots
 
-- phase 1 : WinForms app (simpest prototype) +
+![TimePad application screenshot](Images/shot01.png "TimePad application screenshot")
 
-- phase 2 : UWP app =  
+## 2 words about tech
+
+This sample demonstrates how to consume REST-based web services from Xamarin.Forms applications. 
+
+Based on Microsoft's Web Service Tutorial.
+
+## Status
+
+Work-in-progress
+
+Only simplest TimePad.ru's API support realized (even without json parsing)
+
+## Useful links
+For more information about this sample, 
+see [Web Service Tutorial](https://docs.microsoft.com/xamarin/get-started/tutorials/web-service/).
+
+-- [m][e] 2022
+
+
+
+
