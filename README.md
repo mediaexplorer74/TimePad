@@ -6,7 +6,7 @@
 ## Screenshots
 
 ![TimePad Win10Desktop screenshot](Images/shot1.png "Win10Desktop")
-![TimePad Win10Mobile screenshot](Images/shot_2.png "Win10Mobile")
+![TimePad Win10Mobile screenshot](Images/shot2.png "Win10Mobile")
 
 ## 2 words about tech
 
