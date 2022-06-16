@@ -18,7 +18,7 @@ namespace TimePad
 
         async void OnButtonClicked(object sender, EventArgs e)
         {
-            List<TimePadItem> repositories = await _restService.GetRepositoriesAsync(Constants.TimePadAPIEndpoint);
+            List<TimePadItem> repositories = await _restService.GetRepositoriesAsync(Constants.TimePadAPIGetEvents);
 
             collectionView.ItemsSource = repositories;
         }

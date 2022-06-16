@@ -7,7 +7,7 @@ namespace TimePad.Models
     public class TimePadImage
     {
         [JsonProperty("image_id")]
-        public string Id { get; set; }
+        public string ImageId { get; set; }
 
         [JsonProperty("src")]
         public string Source { get; set; }

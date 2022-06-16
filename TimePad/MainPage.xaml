@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimePad.MainPage">
     <StackLayout Margin="20,35,20,20">
-        <Button Text="Get TimePad Data"
+        <Button Text="Получить данные от TimePad (Москва - 100 ближ. эвентов)"
                 Clicked="OnButtonClicked" />
 
         <ListView x:Name="collectionView">

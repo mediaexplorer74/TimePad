@@ -1,4 +1,4 @@
-# Xamarin.Forms - TimePad proto
+# Xamarin.Forms - TimePad proto (v 1.0.1-alpha)
 
 ## Abstract
  This sample demonstrates how to consume REST-based web services from Xamarin.Forms applications (get started).

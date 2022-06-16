@@ -103,6 +103,7 @@ namespace TimePad
 
                             timepadItem.Name = timepadItem.Name.Trim();
                             timepadItem.Name = timepadItem.Name.Replace("&quot;", @"""");
+                            timepadItem.Name = timepadItem.Name.Replace("&amp;quot;", @"""");
 
                             timepadItem.CategoriesPlain = "";
 
@@ -119,8 +120,11 @@ namespace TimePad
                                 + ", " + timepadItem.Location.City
                                 + ", " + timepadItem.Location.Address;
 
+                            timepadItem.LocationPlain = timepadItem.LocationPlain.Replace("&quot;", @"""");
+                            timepadItem.LocationPlain = timepadItem.LocationPlain.Replace("&amp;quot;", @"""");
 
-                            
+
+
                             repositories.Add(timepadItem);
 
                         }
