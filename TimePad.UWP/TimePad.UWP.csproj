@@ -203,7 +203,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarTimePadUWPHideInfoBar="True" XamarinHotReloadXFormsNugetUpgradeInfoBarWebServiceTutorialUWPHideInfoBar="True" />
+      <UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarWebServiceTutorialUWPHideInfoBar="True" XamarinHotReloadXFormsNugetUpgradeInfoBarTimePadUWPHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
